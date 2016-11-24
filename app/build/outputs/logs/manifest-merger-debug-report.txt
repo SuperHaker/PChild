@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.x
 		INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:6:5-22:19
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [com.android.support:design:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
@@ -26,33 +26,43 @@ MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\hp pc\Documents\G
 MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:9:9-35
 	android:allowBackup
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.example.android.pchild.MainActivity
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:12:9-21:20
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:11:9-20:20
 	android:label
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:13:13-45
 	android:theme
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:15:13-56
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:14:13-56
 	android:name
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:12:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.example.android.pchild.CameraActivity
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:21:9-26:20
+	android:name
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:21:19-49
+intent-filter#android.intent.action.VIEW
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:23:25-66
 uses-sdk
 INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\AndroidManifest.xml:20:5-43
@@ -66,6 +76,7 @@ MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\hp pc\Documents\G
 MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\AndroidManifest.xml:20:5-43
+MERGED from [net.bozho.easycamera:easycamera:0.0.1:aar] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\net.bozho.easycamera\easycamera\0.0.1\aar\AndroidManifest.xml:6:5-8:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
@@ -74,3 +85,13 @@ MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\hp pc\Document
 	android:minSdkVersion
 		INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [net.bozho.easycamera:easycamera:0.0.1:aar] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\net.bozho.easycamera\easycamera\0.0.1\aar\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from [net.bozho.easycamera:easycamera:0.0.1:aar] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\net.bozho.easycamera\easycamera\0.0.1\aar\AndroidManifest.xml:10:22-62
+uses-feature#android.hardware.camera
+ADDED from [net.bozho.easycamera:easycamera:0.0.1:aar] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\net.bozho.easycamera\easycamera\0.0.1\aar\AndroidManifest.xml:11:5-85
+	android:required
+		ADDED from [net.bozho.easycamera:easycamera:0.0.1:aar] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\net.bozho.easycamera\easycamera\0.0.1\aar\AndroidManifest.xml:11:58-82
+	android:name
+		ADDED from [net.bozho.easycamera:easycamera:0.0.1:aar] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\net.bozho.easycamera\easycamera\0.0.1\aar\AndroidManifest.xml:11:19-57
