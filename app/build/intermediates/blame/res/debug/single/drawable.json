@@ -48,6 +48,10 @@
         "source": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
+        "merged": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_default_light.xml",
+        "source": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\src\\main\\res\\drawable\\btn_default_light.xml"
+    },
+    {
         "merged": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
         "source": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\design_ic_visibility.xml"
     },
@@ -94,6 +98,10 @@
     {
         "merged": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_capture.xml",
+        "source": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\src\\main\\res\\drawable\\btn_capture.xml"
     },
     {
         "merged": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
@@ -150,6 +158,10 @@
     {
         "merged": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
         "source": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_capture_options.xml",
+        "source": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\src\\main\\res\\drawable\\btn_capture_options.xml"
     },
     {
         "merged": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_46e0a0ca027d30815e99c6eed8cdffa24464fd91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_83e182eacc90743439908f3f2f6041ee8d180906.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.0.0_03ed0d6becc51102b35d59dac42f09c6baf48462.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_6112b2948f356aa75e3abb33294f13eeb2af4e00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_7091b9419b8964a75de4dce08e3c50f8fe0b3fcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_c81d23fad9a2ef55e95d83b303f0fafc7d0bf816.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.7.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3c52496d5177b4f45994244bc954babd31d7d24c">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.commonsware.cwac-camera-0.7.0_8064ed22c6d5d3fadf07dfcb9913535c7c2a650b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_c966eb258fb213e7e1343e5c4b2a13ff2ab8abeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_86f3a6d9a9826483b8384e5aa19c131d389ce9c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_931c522d10e7a9cf5141306b325c60fe566622c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_bcf2055c61fde90be8be3959fc410938b70c2f8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3401ae74ca62500683a7c41dd458c3d1be5fe801.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-v13\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c87270a9d828773c296fadde93e939c8190a6b1b">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-support-v13-24.0.0_c95c6bb26221d0c897e42f01e5e7a9e9493a08de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f6c59b8b0ca8d9dd80bea9aaf0d18a1015934ade.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_ecab36ba46dadfdb63cefd8b0a2bfd59c45e9bae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_d14a12dcdde58afb07dc0bfac2959a36877aee90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_e5f457741919ed6b05cd6bb3b8d51d48674c506a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_e589696a7961b888690ea6e8f0f2e2b017218554.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-v13\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="61fd2644ca586288d0e733377d12b5f6da18c4ca">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_e82ff05fa68884086285aca6737a8a60258c685d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5ab77a3a2cd9ae1b74d57e39792120763157e9e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_d221cdae5e92420606841f3ef0e98af5cce6a535.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.jakewharton.timber\timber\4.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b5d7ba9e868a9251dca3277fcbf494dc59632eff">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.jakewharton.timber-timber-4.3.1_f4d525bd9d3946ffed0cd2f11489d697a99438d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-palette-v7-24.0.0_828c7193b19363b34ffa66f2f7a092ce4ae47f61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_aae2b9c7443628771f1bb4c018d5ab074e1e1d84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_358571120b2003a41649a0dd38659019dc27af55.jar" />
+    </item>
+
+</items>
