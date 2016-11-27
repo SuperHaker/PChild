@@ -1,7 +1,6 @@
 package com.example.android.pchild;
 
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
@@ -20,24 +19,15 @@ import com.commonsware.cwac.cam2.CameraActivity;
 import com.commonsware.cwac.cam2.Facing;
 import com.commonsware.cwac.cam2.FlashMode;
 import com.commonsware.cwac.cam2.ZoomStyle;
-import com.commonsware.cwac.security.RuntimePermissionUtils;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static android.Manifest.permission.CAMERA;
-import static android.Manifest.permission.RECORD_AUDIO;
-import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
-
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private static final String[] PERMS_ALL={
-            CAMERA,
-            RECORD_AUDIO,
-            WRITE_EXTERNAL_STORAGE
-    };
+
     private static final FlashMode[] FLASH_MODES={
             FlashMode.ALWAYS,
             FlashMode.AUTO
@@ -45,14 +35,10 @@ public class MainActivity extends AppCompatActivity
 
 
     private static final int REQUEST_PORTRAIT_RFC=1337;
-    private static final int REQUEST_PORTRAIT_FFC=REQUEST_PORTRAIT_RFC+1;
-    private static final int REQUEST_LANDSCAPE_RFC=REQUEST_PORTRAIT_RFC+2;
-    private static final int REQUEST_LANDSCAPE_FFC=REQUEST_PORTRAIT_RFC+3;
-    private static final int RESULT_PERMS_ALL=REQUEST_PORTRAIT_RFC+4;
+
     private static final String STATE_TEST_ROOT="Saved Images IDK";
 
     private File previewFrame;
-    private RuntimePermissionUtils utils;
     private File testRoot;
 
     @Override
@@ -74,20 +60,19 @@ public class MainActivity extends AppCompatActivity
 
         setContentView(R.layout.activity_main);
 
-        utils=new RuntimePermissionUtils(this);
 
-        if (savedInstanceState==null) {
-            String filename = "cam2_" + Build.MANUFACTURER + "_" + Build.PRODUCT
-                    + "_" + new SimpleDateFormat("yyyyMMdd'-'HHmmss").format(new Date());
+//        if (savedInstanceState==null) {
+//            String filename = "cam2_" + Build.MANUFACTURER + "_" + Build.PRODUCT
+//                    + "_" + new SimpleDateFormat("yyyyMMdd'-'HHmmss").format(new Date());
+//
+//            filename = filename.replaceAll(" ", "_");
+//
+//            testRoot = new File(getExternalFilesDir(null), filename);
+//        }
 
-            filename = filename.replaceAll(" ", "_");
-
-            testRoot = new File(getExternalFilesDir(null), filename);
-        }
-
-        else {
-            testRoot=new File(savedInstanceState.getString(STATE_TEST_ROOT));
-        }
+//        else {
+//            testRoot=new File(savedInstanceState.getString(STATE_TEST_ROOT));
+//        }
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -185,7 +170,7 @@ public class MainActivity extends AppCompatActivity
                     .skipConfirm()
                     .facing(Facing.BACK)
                     .facingExactMatch()
-                    .to(new File(testRoot, "landscape-rear.jpg"))
+                    .to(new File(getExternalFilesDir(null),  (new SimpleDateFormat("yyyyMMdd'-'HHmmss").format(new Date())).replaceAll(" ", "_") + ".jpg"))
                     .updateMediaStore()
                     .flashModes(FLASH_MODES)
                     .zoomStyle(ZoomStyle.SEEKBAR)
