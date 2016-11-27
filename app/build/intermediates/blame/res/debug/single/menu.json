@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\res\\merged\\debug\\menu\\cwac_cam2_confirm.xml",
+        "source": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\exploded-aar\\com.commonsware.cwac\\cam2\\0.7.0\\res\\menu\\cwac_cam2_confirm.xml"
+    },
+    {
         "merged": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
         "source": "C:\\Users\\hp pc\\Documents\\GitHub\\PChild\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },

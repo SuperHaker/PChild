@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml
@@ -13,8 +13,22 @@ ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.x
 	android:versionCode
 		INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:5:5-97
+MERGED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:6:5-96
+	android:name
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:7:5-8:23
+MERGED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:7:22-62
 application
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:5:5-36:19
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:10:5-28:19
 MERGED from [com.android.support:design:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
@@ -29,39 +43,37 @@ MERGED from [com.android.support:support-v13:24.0.0] C:\Users\hp pc\Documents\Gi
 MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:cardview-v7:24.0.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.jakewharton.timber:timber:4.3.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.jakewharton.timber\timber\4.3.1\AndroidManifest.xml:8:5-20
-MERGED from [com.commonsware.cwac:camera:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.7.0\AndroidManifest.xml:11:5-20
+MERGED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:26:5-29:19
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.github.clans\fab\1.6.4\AndroidManifest.xml:12:5-20
+MERGED from [com.commonsware.cwac:security:0.6.3] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\security\0.6.3\AndroidManifest.xml:11:5-20
 	android:label
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:13:9-41
 	android:supportsRtl
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:14:9-35
 	android:allowBackup
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:12:9-43
 	android:theme
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:15:9-40
 activity#com.example.android.pchild.MainActivity
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:18:9-27:20
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:17:9-26:20
 	android:label
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:20:13-45
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:19:13-45
 	android:theme
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:21:13-56
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:20:13-56
 	android:name
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:19:13-41
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:18:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:25:27-74
-activity#com.example.android.pchild.TakePhotoActivity
-ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:35:9-64
-	android:name
-		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:35:19-52
+		ADDED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\AndroidManifest.xml:20:5-43
@@ -80,7 +92,9 @@ MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\hp pc\Documents\Git
 MERGED from [com.android.support:cardview-v7:24.0.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\AndroidManifest.xml:5:5-43
 MERGED from [com.jakewharton.timber:timber:4.3.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.jakewharton.timber\timber\4.3.1\AndroidManifest.xml:6:5-43
-MERGED from [com.commonsware.cwac:camera:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.7.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.github.clans\fab\1.6.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.commonsware.cwac:security:0.6.3] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\security\0.6.3\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:24.2.1] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
@@ -89,3 +103,39 @@ MERGED from [com.commonsware.cwac:camera:0.7.0] C:\Users\hp pc\Documents\GitHub\
 	android:minSdkVersion
 		INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\hp pc\Documents\GitHub\PChild\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:11:22-68
+uses-feature#android.hardware.camera
+ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:13:5-15:35
+	android:required
+		ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:15:9-32
+	android:name
+		ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:14:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:17:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:20:9-57
+uses-feature#android.hardware.microphone
+ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:23:9-51
+activity#com.commonsware.cwac.cam2.CameraActivity
+ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:27:9-77
+	android:name
+		ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:27:19-74
+activity#com.commonsware.cwac.cam2.VideoRecorderActivity
+ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:28:9-84
+	android:name
+		ADDED from [com.commonsware.cwac:cam2:0.7.0] C:\Users\hp pc\Documents\GitHub\PChild\app\build\intermediates\exploded-aar\com.commonsware.cwac\cam2\0.7.0\AndroidManifest.xml:28:19-81
