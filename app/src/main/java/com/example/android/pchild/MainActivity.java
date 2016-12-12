@@ -29,17 +29,13 @@ public class MainActivity extends AppCompatActivity
 
 
     private static final FlashMode[] FLASH_MODES={
+            FlashMode.AUTO,
             FlashMode.ALWAYS,
-            FlashMode.AUTO
+            FlashMode.OFF
     };
 
 
     private static final int REQUEST_PORTRAIT_RFC=1337;
-
-    private static final String STATE_TEST_ROOT="Saved Images IDK";
-
-    private File previewFrame;
-    private File testRoot;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,33 +50,11 @@ public class MainActivity extends AppCompatActivity
             finish();
         }
 
-        previewFrame=
-                new File(getExternalCacheDir(), "cam2-preview.jpg");
-
-
         setContentView(R.layout.activity_main);
-
-
-//        if (savedInstanceState==null) {
-//            String filename = "cam2_" + Build.MANUFACTURER + "_" + Build.PRODUCT
-//                    + "_" + new SimpleDateFormat("yyyyMMdd'-'HHmmss").format(new Date());
-//
-//            filename = filename.replaceAll(" ", "_");
-//
-//            testRoot = new File(getExternalFilesDir(null), filename);
-//        }
-
-//        else {
-//            testRoot=new File(savedInstanceState.getString(STATE_TEST_ROOT));
-//        }
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-
-
-
-
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -160,7 +134,6 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-
     private void capturePortraitFFC() {
 
         Intent i;
@@ -183,20 +156,4 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        savePreviewFrame(new File(testRoot,
-                "preview-portrait-rear.jpg"));
-    }
-
-    private void savePreviewFrame(File previewDest) {
-        if (previewFrame.exists()) {
-            if (previewDest.exists()) {
-                previewDest.delete();
-            }
-
-            previewFrame.renameTo(previewDest);
-        }
-    }
 }
